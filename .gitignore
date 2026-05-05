@@ -1,0 +1,14 @@
+# Lingkungan Virtual & Cache Python
+venv/
+__pycache__/
+*.pyc
+
+# Database SQLite lokal
+database.db
+
+# File Output & Media
+screenshots/
+reports/
+
+# Kredensial (Jika nanti Token Telegram kamu pindah ke .env)
+.env
