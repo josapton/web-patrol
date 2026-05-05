@@ -47,8 +47,8 @@ Pastikan Anda telah menginstal **Python 3.8+** dan **Git** di sistem (Windows/Li
 
 ### 2. Clone Repositori
 ```bash
-git clone https://github.com/USERNAME-KAMU/web-patrol.git
-cd devsecops-radar
+git clone https://github.com/josapton/web-patrol.git
+cd web-patrol
 ```
 
 ### 3. Buat Virtual Environment & Instal Dependensi
@@ -59,7 +59,7 @@ python -m venv venv
 # Aktivasi venv (Linux/macOS)
 source venv/bin/activate
 # Aktivasi venv (Windows)
-# venv\Scripts\activate
+venv\Scripts\activate
 
 # Instalasi modul Python
 pip install fastapi nicegui uvicorn httpx beautifulsoup4 playwright sqlmodel apscheduler python-whois fpdf2 python-dotenv
@@ -81,7 +81,7 @@ TELEGRAM_CHAT_ID=123456789
 
 Jalankan server aplikasi melalui terminal:
 ```bash
-python main.py
+python3 main.py
 ```
 Akses *dashboard* pemantauan melalui *browser* di alamat:
 **`http://localhost:8080`**
