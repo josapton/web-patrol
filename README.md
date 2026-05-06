@@ -66,8 +66,7 @@ pip install -r requirements.txt
 
 # Instalasi browser Playwright (untuk fitur Screenshot)
 playwright install chromium
-# Jika sudah mempunyai browser berbasis chromium bisa langsung mengubah channel di
-`scanner.py`
+# Jika sudah mempunyai browser berbasis chromium bisa langsung mengubah channel di 'scanner.py'
 browser = await p.chromium.launch(headless=True, channel="msedge")
 ```
 
