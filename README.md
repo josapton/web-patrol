@@ -62,10 +62,13 @@ source venv/bin/activate
 venv\Scripts\activate
 
 # Instalasi modul Python
-pip install fastapi nicegui uvicorn httpx beautifulsoup4 playwright sqlmodel apscheduler python-whois fpdf2 python-dotenv
+pip install -r requirements.txt
 
 # Instalasi browser Playwright (untuk fitur Screenshot)
 playwright install chromium
+# Jika sudah mempunyai browser berbasis chromium bisa langsung mengubah channel di
+`scanner.py`
+browser = await p.chromium.launch(headless=True, channel="msedge")
 ```
 
 ### 4. Konfigurasi Kredensial (.env)
