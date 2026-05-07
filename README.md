@@ -70,18 +70,18 @@ playwright install chromium
 browser = await p.chromium.launch(headless=True, channel="msedge")
 ```
 
-## 4. Membuat Bot Telegram
+### 4. Membuat Bot Telegram
 
 Sistem ini membutuhkan Bot Telegram untuk mengirimkan notifikasi *real-time*. Ikuti langkah-langkah berikut:
 
-# Mendapatkan API Token
+#### Mendapatkan API Token
 1. Cari **@BotFather** di aplikasi Telegram.
 2. Ketik `/newbot` dan tekan Enter.
 3. Masukkan nama bot Anda (contoh: `WEB-PATROL`).
 4. Masukkan *username* bot yang unik dan berakhiran "bot" (contoh: `web-patrol_bot`).
 5. Simpan **HTTP API Token** yang diberikan (teks panjang yang muncul).
 
-# Mendapatkan Chat ID
+#### Mendapatkan Chat ID
 1. Cari **@userinfobot** di Telegram.
 2. Kirim pesan apa saja ke bot tersebut.
 3. Bot akan membalas dengan **Id** Anda (deretan angka). Simpan angka ini sebagai `TELEGRAM_CHAT_ID`.
